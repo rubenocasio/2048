@@ -26,6 +26,7 @@ document.addEventListener('DOMContentLoaded', () => {
         console.log(randomNumber)
         if(squares[randomNumber].innerHTML == 0) {
             squares[randomNumber].innerHTML = 2
+            checkForGameOver()
         } else generate()
     }
 
@@ -196,6 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if(squares[i].innerHTML == 2048) {
                 resultDisplay.innerHTML = 'You WIN!!!'
                 document.removeEventListener('keydown', control)
+                setTimeout(clear(), 3000)
             }
             
         }
@@ -203,7 +205,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function checkForGameOver() {
         let zeros = 0
-        for (let i = 0; index < squares.length; i++) {
+        for (let i = 0; i < squares.length; i++) {
             if(squares[i].innerHTML == 0) {
                 zeros++
             }
@@ -211,7 +213,12 @@ document.addEventListener('DOMContentLoaded', () => {
         if(zeros === 0){
             resultDisplay.innerHTML = 'You LOSE!!!'
             document.removeEventListener('keydown', control)
+            setTimeout(clear, 3000)
         }
+    }
+
+    function clear(){
+        clearInterval(timer)
     }
 
     //Color function
