@@ -50,10 +50,10 @@ Check out the live version of the game here: 2048 Game
 
 ## 📂 Project Structure
 2048
-    **index.html         # Main HTML file
-    **style.css          # Styles for the game
-    **optimized_2048.js  # JavaScript logic for the game
-    **README.md          # Project documentation
+-  **index.html         # Main HTML file
+-  **style.css          # Styles for the game
+-  **optimized_2048.js  # JavaScript logic for the game
+-  **README.md          # Project documentation
 
 ---
 
