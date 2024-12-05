@@ -1,18 +1,15 @@
 # 2048 Game
-
 Welcome to the **2048 Game**!
 This repository contains a clean and optimized implementation of the classic 2048 puzzle game using **HTML**, **CSS**, and **JavaScript**. The game is responsive and easy to play directly in the browser.
 
 ---
 
 ## 🧩 About the Game
-
 2048 is a sliding tile puzzle game where the objective is to merge tiles with the same value to eventually reach the number `2048`. Each move spawns a new tile with the value `2` or `4`. The game ends when no more valid moves are possible.
 
 ---
 
 ## 🎮 How to Play
-
 1. Use the arrow keys to slide the tiles:
    - **Arrow Up**: Move tiles up.
    - **Arrow Down**: Move tiles down.
@@ -24,7 +21,6 @@ This repository contains a clean and optimized implementation of the classic 204
 ---
 
 ## 🚀 Features
-
 - **Dynamic Gameplay:** Smooth tile movements and merges.
 - **Color Coded Tiles:** Each tile value has its own color for better visibility.
 - **Win and Lose Conditions:** Alerts you when you win or lose.
@@ -34,7 +30,6 @@ This repository contains a clean and optimized implementation of the classic 204
 ---
 
 ## 🛠️ Installation
-
 1. Clone this repository:
    ```bash git clone https://github.com/rubenocasio/2048.git```
 2. Navigate to the project directory:
